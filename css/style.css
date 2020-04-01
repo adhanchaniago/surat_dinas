@@ -1,0 +1,81 @@
+.bs-glyphicons {
+  margin: 5px 20px 20px 0px;
+  overflow: hidden;
+}
+.bs-glyphicons-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.bs-glyphicons-list a {
+  color:#8a8a8a !important;
+}
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.bs-glyphicons li {
+  float: left;
+  width: 20%;
+  height: 155px;
+  padding: 30px;
+  font-size: 10px;
+  line-height: 1.4;
+  text-align: center;
+  border: 1px solid #cecece;
+  background-color: #ffffff;
+}
+.bs-glyphicons li:hover {
+  background-color: #e3e3e3;
+}
+.bs-glyphicons .glyphicon {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 74px;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bs-glyphicons .glyphicon-class {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.satu{
+  padding-top:8px !important; 
+  color:#fff !important; 
+  border-radius:0px; 
+  text-align:left; 
+  padding-left:10px !important;
+  margin-bottom:10px !important; 
+}
+
+.dua{
+  padding-top:8px !important; 
+  color:#fff !important; 
+  border-radius:0px; 
+  text-align:left; 
+  padding-left:10px !important;
+  margin-top:-4px !important; 
+}
+
+.tiga{
+  padding-top:8px !important; 
+  color:#fff !important; 
+  border-radius:0px; 
+  text-align:left; 
+  padding-left:10px !important; 
+}
+
+.table, .modal-body{
+    font-size:14px !important;
+}

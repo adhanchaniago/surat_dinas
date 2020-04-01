@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteRule ^index\.mu$ index.php?view=home
+RewriteRule ^account\.mu$ index.php?view=account&id=$1 [L]
+RewriteRule ^golongan\.mu$ index.php?view=golongan&id=$1 [L]
+RewriteRule ^pejabat\.mu$ index.php?view=pejabat&id=$1 [L]
+RewriteRule ^karyawan\.mu$ index.php?view=karyawan&id=$1 [L]
+RewriteRule ^kegiatan\.mu$ index.php?view=kegiatan&id=$1 [L]
+RewriteRule ^spd-list\.mu$ index.php?view=spdlist&id=$1 [L]
+RewriteRule ^data-perkara-(.*)\.mu$ index.php?view=dataperkara&status=$1 [L]
